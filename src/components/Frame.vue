@@ -33,7 +33,7 @@
         transition: left 0.5s;
     }
     .cont {
-        width: calc(100vw - 160px);
+        width: calc(100vw - 130px);
         height: 100%;
         display: flex;
         background-color: var(--bg-dark);

@@ -95,8 +95,8 @@
         data() {
             return {
                 oneOff: '0px',
-                twoOff: '55px',
-                thrOff: '110px',
+                twoOff: '45px',
+                thrOff: '90px',
                 stage: 2,
                 glass: false,
             };
@@ -114,17 +114,17 @@
                 if (pos == 2) {
                     this.stage = pos;
                     this.oneOff = '0px';
-                    this.twoOff = '55px';
+                    this.twoOff = '45px';
                 }
                 else if (pos == 1) {
                     this.stage = pos;
-                    this.oneOff = 'calc(160px - 100vw)';
-                    this.twoOff = '55px';
+                    this.oneOff = 'calc(130px - 100vw)';
+                    this.twoOff = '45px';
                 }
                 else if (pos == 0) {
                     this.stage = pos;
-                    this.oneOff = 'calc(160px - 100vw)';
-                    this.twoOff = 'calc(215px - 100vw)';
+                    this.oneOff = 'calc(130px - 100vw)';
+                    this.twoOff = 'calc(175px - 100vw)';
                 }
                 if (pos == 0) {
                     this.glass = true;

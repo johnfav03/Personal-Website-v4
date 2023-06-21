@@ -24,7 +24,7 @@
 <style scoped>
     span {
         display: block;
-        width: 50px;
+        width: 40px;
         height: 100%;
         position: relative;
     }
@@ -41,7 +41,7 @@
     .bar {
         background-color: var(--bg-color);
         color: var(--tx-dark);
-        width: 50px;
+        width: 40px;
         height: 100%;
         padding-top: 25px;
     }
@@ -50,8 +50,8 @@
     }
     h1 {
         font-size: 25px;
-        height: 50px;
-        line-height: 50px;
+        height: 40px;
+        line-height: 40px;
         transform: rotate(90deg) translateY(-100%);
         transform-origin: top left;
         white-space: nowrap;
