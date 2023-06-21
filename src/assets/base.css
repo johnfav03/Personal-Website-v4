@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Ubuntu&display=swap');
 
+:root {
+  --acc-one: #E8D052;
+  --acc-two: #FF9F1C;
+  --acc-thr: #00939C;
+  --bg-dark: #1E1E1E;
+  --tx-dark: #1E1E1E;
+}
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
 }
 
 html, body, #app {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-color: var(--bg-dark);
 }

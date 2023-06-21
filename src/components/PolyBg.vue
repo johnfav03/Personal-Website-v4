@@ -1,23 +1,15 @@
 <template>
-    <div class="reveal" :style="{width: pos + '%'}"></div>
-    <svg class="cavnas" width="100%" height="100vh" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+    <svg class="canvas" width="100%" height="100%" viewBox="0 0 100 1000" preserveAspectRatio="none">
         <g v-for="polygon in polygons" :key="polygon.id">
-            <path :d="polygon.path" :fill="polygon.color" stroke="#FFF" stroke-width="6" />
+            <path :d="polygon.path" :fill="polygon.color" stroke="#1e1e1e" stroke-width="6" />
         </g>
     </svg>
 </template>
 
 <style scoped>
-    .reveal {
-        position: absolute;
-        height: 100%;
-        right: -2%;
-        background-color: #00A3AF;
-        border-left: 4px solid white;
-    }
     .canvas {
         overflow: hidden;
-        scroll-snap-align: start;
+        opacity: 0.15;
     }
 </style>
 
@@ -26,7 +18,7 @@
     export default {
         data() {
             return {
-                width: 1000, // Adjust as needed
+                width: 100, // Adjust as needed
                 height: 1000, // Adjust as needed
                 points: [],
                 polygons: [],
@@ -36,15 +28,10 @@
         mounted() {
             this.generatePoints();
             this.generateVoronoi();
-            this.interval = setInterval(() => {
-                if (this.pos > 0) {
-                    this.pos -= 0.6;
-                }
-            }, 5);
         },
         methods: {
             generatePoints() {
-                for (let i = 0; i < 100; i++) {
+                for (let i = 0; i < 50; i++) {
                     const point = {
                         x: Math.random() * this.width,
                         y: Math.random() * this.height,
@@ -72,7 +59,7 @@
                 this.polygons = polygons;
             },
             getRandomGrayscaleColor() {
-                const value = Math.floor(Math.random() * 200);
+                const value = Math.floor(Math.random() * 155) + 80;
                 return `rgb(${value}, ${value}, ${value})`;
             },
         },
