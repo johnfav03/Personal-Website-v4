@@ -61,7 +61,7 @@
         height: 60%;
         width: 50%;
         top: 1px;
-        right: 0;
+        right: 1px;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
@@ -117,8 +117,8 @@
             z-index: -1;
         }
         100% {
-            top: 0;
-            right: 0;
+            top: 1px;
+            right: 1px;
             z-index: -1;
             transform: rotate(0deg);
         }

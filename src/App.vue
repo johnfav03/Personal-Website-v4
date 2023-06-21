@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="mobile-error">SORRY, NO MOBILE PAGE AVAILABLE AT THIS TIME</div>
+    <div class="mobile-error">SORRY, NO MOBILE PAGE AVAILABLE</div>
     <Frame pos="2" :off="oneOff" title="HOME" color="--acc-one" @toggle="togglePos($event)">
         <div class="cont">
             <div class="bg-img"></div>
@@ -86,7 +86,16 @@
             <div class="inner two">
                 <h2>HERE'S MORE</h2>
                 <h1>ABOUT ME</h1>
-                <div class="proj-grid"></div>
+                <div class="about-left">
+                    <span class="quote"><span class="acc">" </span>Stones in the road? I'll save every single one, and one day I'll build a castle.<span class="acc"> "</span> <br><span class="acc">--Fernando Pessoa</span></span>
+                    <h3>My Experience with Web Development</h3>
+                    <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
+                    <h3>My Experience with Embedded Systems</h3>
+                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. Together, we fostered the club; just before COVID, we participated in a county-wide invention competition, and our automated table-cleaning robot won first place, securing us 1k for future club funding. This is still one of my favorite ways of creating, and most of my projects for fun are still Arduino-based.</p>
+                </div>
+                <div class="about-right">
+
+                </div>
             </div>
         </div>
     </Frame>
@@ -183,7 +192,7 @@
     .txt-cont p {
         margin-top: 30px;
         font-size: 20px;
-        width: 63%;
+        width: 60%;
     }
     .inner {
         width: 90%;
@@ -222,7 +231,26 @@
     .mobile-error {
         display: none;
     }
-    @media screen and (max-width: 750px) {
+    .about-left {
+        width: 60%;
+        display: flex;
+        float: left;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0px;
+    }
+    .about-right {
+
+    }
+    .quote {
+        line-height: 30px;
+        padding: 20px;
+    }
+    .quote .acc {
+        color: var(--acc-thr);
+        font-size: 20px;
+    }
+    @media screen and (max-width: 768px) {
         .mobile-error {
             display: flex;
             justify-content: center;
