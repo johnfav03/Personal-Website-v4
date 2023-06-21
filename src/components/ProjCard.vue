@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card" tabindex="0">
         <div class="hidden-img" :style="{ backgroundImage: `url(${image})` }">
         </div>
         <div class="card-cont">
@@ -67,17 +67,17 @@
         border-radius: 10px;
         pointer-events: none;
     }
-    .card:hover {
+    .card:focus {
         z-index: 1;
     }
-    .card:hover .hidden-img {
+    .card:focus .hidden-img {
         animation: bounce 0.2s;
         width: 100%;
         height: 100%;
         border-radius: 0;
         z-index: 2;
     }
-    .card:not(:hover) .hidden-img {
+    .card:not(:focus) .hidden-img {
         animation: unbounce 0.2s;
     }
     @keyframes bounce {

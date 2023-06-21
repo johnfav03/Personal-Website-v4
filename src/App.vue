@@ -20,6 +20,7 @@
             <div class="inner one">
                 <h2>CHECK OUT SOME OF MY FAVORITE</h2>
                 <h1>PROJECTS</h1>
+                <p>To take a closer look, click on each card!</p>
                 <div class="proj-grid">
                     <ProjCard 
                         image="stick-sim.png"
@@ -192,6 +193,10 @@
     .one h1 {
         font-size: 66px;
         color: var(--acc-two);
+    }
+
+    .one p {
+        margin-top: 15px;
     }
 
     .two h1 {
