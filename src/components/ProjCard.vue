@@ -38,7 +38,7 @@
     }
     .card-cont h1 {
         font-size: 25px;
-        width: calc(100%-90px);
+        width: calc(100% - 90px);
         height: 45px;
         line-height: 45px;
         display: block;
