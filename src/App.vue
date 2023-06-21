@@ -4,7 +4,8 @@
 </script>
 
 <template>
-    <Frame pos="2" :glass="glass" :off="oneOff" title="HOME" color="--acc-one" @toggle="togglePos($event)">
+    <div class="mobile-error">SORRY, NO MOBILE PAGE AVAILABLE AT THIS TIME</div>
+    <Frame pos="2" :off="oneOff" title="HOME" color="--acc-one" @toggle="togglePos($event)">
         <div class="cont">
             <div class="bg-img"></div>
             <div class="layer"></div>
@@ -217,5 +218,24 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 30px;
+    }
+    .mobile-error {
+        display: none;
+    }
+    @media screen and (max-width: 750px) {
+        .mobile-error {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-dark);
+            color: #FFF;
+            font-size: 20px;
+            z-index: 5;
+        }
     }
 </style>

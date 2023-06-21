@@ -4,7 +4,7 @@
 
 <template>
     <span>
-        <PolyBg class="over" :class="{ show: glass }"/>
+        <PolyBg class="over"/>
         <div class="bar" :style="{ backgroundColor: `var(${color})`}">
             <h1>{{ title }}</h1>
         </div>
@@ -16,7 +16,6 @@
         props: [
             'title',
             'color',
-            'glass',
         ],
     }
 </script>
@@ -33,10 +32,10 @@
         position: absolute;
         top: 0;
         left: 0;
-        transition: opacity 0.5s;
+        transition: opacity 0.2s;
     }
-    .show {
-        opacity: 0.15;
+    .over:hover {
+        opacity: 0.2;
     }
     .bar {
         background-color: var(--bg-color);
@@ -44,9 +43,6 @@
         width: 40px;
         height: 100%;
         padding-top: 25px;
-    }
-    .bar:hover {
-        color: #FFF;
     }
     h1 {
         font-size: 25px;

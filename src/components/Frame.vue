@@ -7,7 +7,7 @@
         <div class="cont">
             <slot/>
         </div>
-        <NavStrip :glass="glass" :title="title" :color="color" @click="$emit('toggle', pos)"/>
+        <NavStrip :title="title" :color="color" @click="$emit('toggle', pos)"/>
     </div>
 </template>
 
@@ -16,7 +16,6 @@
         props: [
             'title',
             'color',
-            'glass',
             'pos',
             'off',
         ],
