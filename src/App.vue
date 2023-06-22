@@ -259,6 +259,7 @@
     }
     .quote {
         padding: 20px;
+        font-size: 1.08vw;
     }
     .quote .acc {
         color: var(--acc-thr);
