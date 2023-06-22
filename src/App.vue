@@ -94,7 +94,9 @@
                     <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. Together, we fostered the club; just before COVID, we participated in a county-wide invention competition, and our automated table-cleaning robot won first place, securing us 1k for future club funding. This is still one of my favorite ways of creating, and most of my projects for fun are still Arduino-based.</p>
                 </div>
                 <div class="about-right">
-
+                    <div style="backgroundImage: url(backpack.jpg)"></div>
+                    <div style="backgroundImage: url(face.jpg)" id="face"></div>
+                    <div style="backgroundImage: url(ice.jpg)"></div>
                 </div>
             </div>
         </div>
@@ -238,17 +240,33 @@
         flex-direction: column;
         gap: 20px;
         padding: 30px 0px;
+        overflow-y: scroll;
     }
     .about-right {
-
+        width: 35%;
+        padding-left: 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 70vh;
+    }
+    .about-right div {
+        height: calc(33% - 10px);
+        width: 100%;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .quote {
-        line-height: 30px;
         padding: 20px;
     }
     .quote .acc {
         color: var(--acc-thr);
         font-size: 20px;
+        line-height: 30px;
+    }
+    #face {
+        background-position: 0% 75%;
     }
     @media screen and (max-width: 768px) {
         .mobile-error {
