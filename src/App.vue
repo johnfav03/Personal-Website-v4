@@ -24,6 +24,18 @@
                 <p>To take a closer look, click on each card!</p>
                 <div class="proj-grid">
                     <ProjCard 
+                        image="mbta-pred.png"
+                        title="MBTA PREDICTOR"
+                        messg="This project was a machine learning model using the Python library Tensorflow to predict the travel times of the Boston T, and used GitHub Actions to make and refine its predictions daily."
+                        date="SM 2023"
+                    />
+                    <ProjCard 
+                        image="branch-sage.png"
+                        title="BRANCH SAGE"
+                        messg="This started as a bash script to manage branches following a naming convention, then incorporated tools like the Jira and GitHub APIs to generate branch names and automate processes."
+                        date="SM 2023"
+                    />
+                    <ProjCard 
                         image="stick-sim.png"
                         title="STICK SHIFT SIM"
                         messg="This was the final project for EECS 498, a self-led project, which utilized VR through Unreal to deliver an immersive manual driving trainer, complete with realistic physics and grip controls."
@@ -63,7 +75,7 @@
                         image="wii-nunchuk.png"
                         title="NUNCHUK BATTLESHIP"
                         messg="In this project, I rewired an old Ninento Nunchuk to and Arduino along with an 8x8 LED matrix, allowing the user to play Battleship against a randomly guessing computer player."
-                        date="FA 2018"
+                        date="SM 2018"
                     />
                     <ProjCard 
                         image="flappy-bird.png"
