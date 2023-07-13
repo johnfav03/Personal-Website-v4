@@ -30,6 +30,12 @@
                         date="SM 2023"
                     />
                     <ProjCard 
+                        image="quote-api.png"
+                        title="QUOTE API"
+                        messg="This project was a venture into APIs, starting with a RESTful Express API connected to a Supabase database, and later was integrated with SwaggerUI and OAuth2.0, then deployed to AWS."
+                        date="SM 2023"
+                    />
+                    <ProjCard 
                         image="branch-sage.png"
                         title="BRANCH SAGE"
                         messg="This started as a bash script to manage branches following a naming convention, then incorporated tools like the Jira and GitHub APIs to generate branch names and automate processes."
