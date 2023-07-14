@@ -32,7 +32,7 @@
                     <ProjCard 
                         image="quote-api.png"
                         title="QUOTE API"
-                        messg="This project was a venture into APIs, starting with a RESTful Express API connected to a Supabase database, and later was integrated with SwaggerUI and OAuth2.0, then deployed to AWS."
+                        messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. It's connected to this site, and its random/ endpoint is on the next page."
                         date="SM 2023"
                     />
                     <ProjCard 
@@ -105,7 +105,7 @@
                 <h2>HERE'S MORE</h2>
                 <h1>ABOUT ME</h1>
                 <div class="about-left">
-                    <span class="quote"><span class="acc">" </span>Stones in the road? I'll save every single one, and one day I'll build a castle.<span class="acc"> "</span> <br><span class="acc">--Fernando Pessoa</span></span>
+                    <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
                     <h3>My Experience with Web Development</h3>
                     <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
                     <h3>My Experience with Embedded Systems</h3>
@@ -122,6 +122,7 @@
 </template>
 
 <script>
+    import axios from 'axios';
     export default {
         data() {
             return {
@@ -130,7 +131,23 @@
                 thrOff: '90px',
                 stage: 2,
                 glass: false,
+                quote: {
+                    'author': 'place',
+                    'content': 'holder',
+                },
             };
+        },
+        async mounted() {
+            try {
+                const response = await axios.get(
+                    "https://api.johnfav.me/random"
+                );
+                // JSON responses are automatically parsed.
+                this.quote = response.data;
+                console.log('quote')
+            } catch (error) {
+                console.log(error);
+            }
         },
         methods: {
             togglePos(pos) {
@@ -276,12 +293,18 @@
         background-size: cover;
     }
     .quote {
+        margin-top: -20px;
         padding: 20px;
         font-size: 1.08vw;
     }
     .quote .acc {
         color: var(--acc-thr);
         font-size: 20px;
+        line-height: 30px;
+    }
+    .quote .auth {
+        color: var(--acc-thr);
+        font-size: 14px;
         line-height: 30px;
     }
     #face {
