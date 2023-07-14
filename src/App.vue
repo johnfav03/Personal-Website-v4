@@ -142,9 +142,7 @@
                 const response = await axios.get(
                     "https://api.johnfav.me/random"
                 );
-                // JSON responses are automatically parsed.
                 this.quote = response.data;
-                console.log('quote')
             } catch (error) {
                 console.log(error);
             }
