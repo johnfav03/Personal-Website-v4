@@ -21,8 +21,20 @@
             <div class="inner one">
                 <h2>CHECK OUT SOME OF MY FAVORITE</h2>
                 <h1>PROJECTS</h1>
-                <p>To take a closer look, click on each card! 🖱️👈</p>
+                <p>To take a closer look, check out my <a href="https://github.com/johnfav03" target="_blank">GitHub</a>, or click on each card! 🖱️👈</p>
                 <div class="proj-grid">
+                    <ProjCard 
+                        image="othello-ai.png"
+                        title="ALPHAZERO OTHELLO"
+                        messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm to optimize hyper-parameters, increasing winrate from 66% to 90%."
+                        date="FA 2023"
+                    />
+                    <ProjCard 
+                        image="traf-cont.png"
+                        title="TRAFFIC CONTROLLER"
+                        messg="This was a school project for Logic Design, for which we had to design and build a sequential controller in Verilog that output to several 8-seg displays and maintained an internal counter."
+                        date="FA 2023"
+                    />
                     <ProjCard 
                         image="mbta-pred.png"
                         title="MBTA PREDICTOR"
