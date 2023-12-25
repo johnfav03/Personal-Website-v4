@@ -21,7 +21,7 @@
             <div class="inner one">
                 <h2>CHECK OUT SOME OF MY FAVORITE</h2>
                 <h1>PROJECTS</h1>
-                <p>To take a closer look, click on each card!</p>
+                <p>To take a closer look, click on each card! 🖱️👈</p>
                 <div class="proj-grid">
                     <ProjCard 
                         image="mbta-pred.png"
@@ -233,7 +233,15 @@
         width: 90%;
         height: 90%;
         overflow-y: scroll;
+        scrollbar-width: 0px !important;
         z-index: 1;
+    }
+    .inner {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .inner::-webkit-scrollbar {
+        display: none;
     }
     .one h1 {
         font-size: 66px;
@@ -274,6 +282,11 @@
         gap: 20px;
         padding: 30px 0px;
         overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .about-left::-webkit-scrollbar {
+        display: none;
     }
     .about-right {
         width: 35%;
