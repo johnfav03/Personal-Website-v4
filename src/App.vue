@@ -240,7 +240,7 @@
     }
     .txt-cont {
         position: relative;
-        top: -10%;
+        top: -5%;
         width: 600px;
     }
     .intro-box {
@@ -252,7 +252,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 30px;
         height: 100%;
     }
     .headshot {
@@ -263,7 +262,8 @@
         background-size: 120% 120%; 
         background-position: 50% 45%;
         border-radius: 100%;
-        border: 2px solid white;
+        border: 3px solid var(--acc-one);
+        margin-right: 30px;
     }
 
     .txt-cont h1 {
