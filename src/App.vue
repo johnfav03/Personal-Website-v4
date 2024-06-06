@@ -7,19 +7,33 @@
     <div class="mobile-error">SORRY, NO MOBILE PAGE AVAILABLE</div>
     <Frame pos="2" :off="oneOff" title="HOME" color="--acc-one" @toggle="togglePos($event)">
         <div class="cont">
-            <div class="bg-img"></div>
-            <div class="layer"></div>
             <div class="txt-cont">
-                <h2>HELLO, MY NAME IS</h2>
-                <h1>JOHN FAVRET</h1>
-                <p>I'm currently a student at the Unversity of Michigan, pursuing a major in Computer Science and a minor in Electrical Engineering. At the moment, I'm working as a Software Engineering Intern at EnergySage. Check out some of the tabs to the right to learn more!</p>
+                <div class="intro-box">
+                    <div class="headshot"></div>
+                    <div class="intro-text">
+                        <h2>HI, MY NAME IS</h2>
+                        <h1>JOHN FAVRET</h1>
+                    </div>
+                </div>
+                <p>I'm currently a student at the <strong>Unversity of Michigan</strong>, 
+                    pursuing a major in <strong>Computer Science</strong> alongside a minor in 
+                    <strong>Electrical Engineering</strong>.<br><br>
+
+                    When I’m not busy with school, you can usually find me 
+                    building (or breaking) something, taking long walks, 
+                    listening to music, or shopping for houseplants. 
+                    If you’d like to chat, feel free to shoot me an email at 
+                    <strong>johnfav@umich.edu</strong>.<br><br>
+
+                    Check out some of the tabs to the right to see 
+                    some of my work or get to know me a bit better!</p>
             </div>
         </div>
     </Frame>
     <Frame pos="1" :glass="glass" :off="twoOff" title="PROJECTS" color="--acc-two" @toggle="togglePos($event)">
         <div class="cont">
             <div class="inner one">
-                <h2>CHECK OUT SOME OF MY FAVORITE</h2>
+                <h2>CHECK OUT SOME OF MY</h2>
                 <h1>PROJECTS</h1>
                 <p>To take a closer look, check out my <a href="https://github.com/johnfav03" target="_blank">GitHub</a>, or click on each card! 🖱️👈</p>
                 <div class="proj-grid">
@@ -201,8 +215,9 @@
         height: 100%;
         position: relative;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .bg-img {
         width: 100%;
@@ -224,22 +239,48 @@
         background: linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5));
     }
     .txt-cont {
-        position: absolute;
-        top: 30%;
-        left: 10%;
+        position: relative;
+        top: -10%;
+        width: 600px;
+    }
+    .intro-box {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .intro-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+        height: 100%;
+    }
+    .headshot {
+        height: 100%;
+        aspect-ratio: 1/1;
+        background-image: url(./assets/headshot.jpg);
+        background-repeat: no-repeat;
+        background-size: 120% 120%; 
+        background-position: 50% 45%;
+        border-radius: 100%;
+        border: 2px solid white;
     }
 
     .txt-cont h1 {
         font-size: 66px;
         color: var(--acc-one);
+        line-height: 66px;
     }
     h2 {
         font-size: 25px;
     }
     .txt-cont p {
         margin-top: 30px;
-        font-size: 20px;
-        width: 60%;
+        font-size: 18px;
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 300;
     }
     .inner {
         width: 90%;

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  --acc-one: #E8D052;
-  --acc-two: #FF9F1C;
-  --acc-thr: #00939C;
-  --bg-dark: #1E1E1E;
+  --acc-one: #FF941C;
+  --acc-two: #FFC633;
+  --acc-thr: #86ae3a;
+  --bg-dark: #141414;
   --tx-dark: #1E1E1E;
 }
 
