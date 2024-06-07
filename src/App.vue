@@ -500,12 +500,22 @@
         display: block;
         border: 3px solid var(--acc-thr);
         border-radius: 3px;
+        position: relative;
     }
     .collage div {
         height: 100%;
         aspect-ratio: 1/1;
         display: block;
         border: 4px solid #141414;
+    }
+    .collage div::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20, 20, 20, 0.2);
     }
     .sage {
         background-image: url(./assets/sages.png);
