@@ -234,7 +234,7 @@
                         for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
                         away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. Another highlight of 
                         my semester was writing and teaching an excel skills workshop for my peers in the business club, another opportunity to hone my passion
-                        for teaching - similar to my engineering club in high school</p>
+                        for teaching - similar to my Engineering Club in high school.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
