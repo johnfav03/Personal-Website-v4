@@ -4,7 +4,8 @@
             <div class="techs" :style="{ backgroundImage: `url(${image})` }"></div>
             <div class="text-block">
                 <div class="title-block">
-                    <h1>{{ title }}</h1>
+                    <h1 v-if="!link">{{ title }}</h1>
+                    <h1 v-else><a :href=link target="_blank">{{ title }}</a></h1>
                 </div>
                 <p>{{ messg }}</p>
             </div>
@@ -18,6 +19,7 @@
             'image',
             'messg',
             'title',
+            'link',
         ],
     }
 </script>
@@ -47,6 +49,9 @@
         font-size: 18px;
         font-weight: 500;
         letter-spacing: 0.4px;
+        color: var(--acc-two);
+    }
+    .card-cont h1 a {
         color: var(--acc-two);
     }
     .card-cont h2 {

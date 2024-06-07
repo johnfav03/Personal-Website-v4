@@ -76,6 +76,7 @@
                         title="STICK SHIFT SIM"
                         messg="This was the final project for EECS 498, a self-led project, which used Unreal Engine 5 to deliver an immersive Virtual Reality simulator for driving manual, featuring realistic physics and grip controls."
                         date="WN 23"
+                        link="https://stickshiftsim.spar.sh/#faq"
                     />
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -233,8 +234,8 @@
                         CreatorSpace</strong> (<a href="shiftcreator.space">shiftcreator.space</a>), where I found many close friends and reconnected with my love
                         for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
                         away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. Another highlight of 
-                        my semester was writing and teaching an excel skills workshop for my peers in the business club, another opportunity to hone my passion
-                        for teaching - similar to my Engineering Club in high school.</p>
+                        my semester was developing and teaching an excel skills workshop for my peers in the business club, another opportunity to hone my passion
+                        for teaching - building on my Engineering Club teaching role in high school.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
@@ -242,7 +243,7 @@
                     <p>Check back in in a month or two!</p>
                     <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to try go even further and try working at a startup.  -->
                 </div>
-                <p>College <span class="dark-txt">[Senior]</span></p>
+                <p>University of Michigan <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
                     <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the major on a strong note...</p>
                 </div>
