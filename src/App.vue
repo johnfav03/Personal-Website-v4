@@ -381,7 +381,7 @@
     }
     .proj-grid {
         position: relative;
-        padding-top: 20px;
+        margin-top: 20px;
         flex-grow: 1;
         overflow-y: scroll;
         overflow-x: visible;
