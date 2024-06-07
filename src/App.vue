@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <p>I'm currently a student at the <strong>Unversity of Michigan</strong>, 
-                    pursuing a major in <strong>Computer Science</strong> alongside a minor in 
+                    pursuing a major in <strong>Computer Science</strong> along with a minor in 
                     <strong>Electrical Engineering</strong>.<br><br>
 
                     When I’m not busy with school, you can usually find me 
@@ -53,7 +53,7 @@
                     <ProjCard 
                         image="qsor-model.png"
                         title="QSOR SCENT CLASSIFIER"
-                        messg="This project was a GCN implemented in Pytorch and deployed it to AWS Fargate using Docker. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
+                        messg="This project was a GCN implemented in Pytorch and deployed to AWS Fargate using Docker. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
                         date="SM 24"
                     />
                     <div class="spacer"></div>
@@ -67,7 +67,7 @@
                     <ProjCard 
                         image="quote-api.png"
                         title="QUOTE API"
-                        messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. Its 'random/' endpoint is connected to the next page, try refreshing a few times!"
+                        messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. Its 'random/' endpoint is connected to the experiences page, try refreshing a few times!"
                         date="SM 23"
                     />
                     <div class="spacer"></div>
@@ -114,7 +114,7 @@
                     <div class="spacer"></div>
                     <ProjCard 
                         image="a2-go.png"
-                        title="ANN ARBOR GO!"
+                        title="ANN ARBOR GO"
                         messg="This was the second project for EECS 498, which uses Unity and Mapbox to replicate both the geolocational and AR features of Pokemon Go, but themed for Ann Arbor."
                         date="WN 23"
                     />
@@ -129,21 +129,21 @@
                     <ProjCard 
                         image="django-dz.png"
                         title="IMAGE DROPZONE"
-                        messg="This project was meant to help learn backend structure and concepts, using a simple front-end with Dropzone.js to pass images to Django so they can be stored and displayed on the next page."
+                        messg="This project was meant to help learn backend structure and concepts, using a simple front-end with Dropzone.js to pass images to Django so they can be stored and displayed on a separate page in the web app."
                         date="WN 22"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="wordle.png"
                         title="WORDLE EVALUATOR"
-                        messg="Utilizing the terminal, this program analyzed starting words, either from input or a database, for both positional and non-specific likelihood, giving each a score and storing the top results. "
+                        messg="Utilizing the terminal, this program analyzed starting words, either from input or a file, for both positional and non-specific likelihood, giving each a score and storing the top results. "
                         date="FA 21"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="eng-club.png"
                         title="ENGINEERING CLUB"
-                        messg="I founded and nurtured this organization in high school with a close friend, where I took up the position of Education Chair teaching C++ and basic circuity targeted at Arduino Microcontrollers."
+                        messg="I founded and nurtured this organization in high school with a close friend, where I took up the position of Education Chair teaching C++ and basic circuitry targeted at Arduino Microcontrollers."
                         date="WN 20"
                     />
                     <div class="spacer"></div>
@@ -178,8 +178,8 @@
                         I fell in love with making text-based games and basic HTML sites plastered 
                         with images of pokemon. I'd always loved creating, and the value of being 
                         able to build projects with no material costs can't be understated. In high school, 
-                        I capitalized on the skills I'd been building, running a small-scale freelance 
-                        business to make websites for family friends, neighbors, or anyone who was 
+                        I capitalized on the skills I had been building, running a small-scale freelance 
+                        business to make websites for family friends, neighbors, and anyone who was 
                         interested. Beyond just improving my web development skills, I learned a 
                         lot of valuable lessons; building with a deadline and collaborating with 
                         clients that had no technical backgrounds were entirely new experiences 
@@ -188,9 +188,9 @@
                         pandemic, we grew the club to 30+ members and built a table cleaning robot
                         that won a statewide invention competition, securing funds to help the
                         organization thrive. For most of my time in the club, I taught C++ and basic
-                        circuity to new members, which helped me get a grasp on microcontrollers and
+                        circuitry to new members, which helped me get a grasp on microcontrollers and
                         simple embedded systems. My co-founder was a year older, and when he left, I assumed
-                        an administrative role, which proved to be another great learning experience for me. </p>
+                        the role of president, which proved to be another great learning experience for me. </p>
                 </div>
                 <div class="spacer"></div>
                 <p>College <span class="dark-txt">[Freshman & Sophmore]</span></p>
@@ -231,7 +231,8 @@
                         deeper understanding of Neural Nets and modern tools like PyTorch. That same semester, I joined a club on campus called <strong>Shift
                         CreatorSpace</strong> (<a href="shiftcreator.space">shiftcreator.space</a>), where I found many close friends and reconnected with my love
                         for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
-                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
+                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. I also wrote and taught
+                        a workshop in excel for my peers in the business club.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
