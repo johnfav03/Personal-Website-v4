@@ -29,7 +29,6 @@
         height: 100%;
         display: flex;
         position: fixed;
-        transition: left 0.5s;
     }
     .cont {
         width: calc(100vw - 130px);
