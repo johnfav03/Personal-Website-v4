@@ -40,6 +40,7 @@
         z-index: 4;
         display: flex;
         flex-direction: row;
+        border-radius: 3px;
     }
     .card-cont h1 {
         float: left;
@@ -72,6 +73,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        border-radius: 3px;
     }
     .title-block {
         flex-grow: 1;
@@ -90,6 +92,7 @@
         border-radius: 10px;
         pointer-events: none;
         z-index: 3;
+        border-radius: 3px;
     }
     .card:focus {
         z-index: 5;
@@ -102,9 +105,11 @@
         top: 15px;
         left: 15px;
         z-index: 5;
+        border-radius: 3px;
     }
     .card:not(:focus) .hidden-img {
         animation: unbounce 0.5s;
+        border-radius: 3px;
     }
     @keyframes bounce {
         0% {

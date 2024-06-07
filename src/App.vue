@@ -172,28 +172,38 @@
                 <h1>EXPERIENCES</h1>
                 <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
                 <div class="spacer"></div>
-                <p>Early life</p>
+                <p>Early Life</p>
                 <div class="desc-box">
                     <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
                 </div>
                 <div class="spacer"></div>
-                <div class="spacer"></div>
-                <div class="spacer"></div>
-                <p>College</p>
+                <p>College <span class="dark-txt">[Freshman & Sophmore]</span></p>
                 <div class="desc-box">
                     <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
                 </div>
-                <div class="spacer"></div>
+                <div class="collage">
+                    <span><div class="sage"></div></span>
+                    <span><div class="vr"></div></span>
+                    <span><div class="shift"></div></span>
+                </div>
                 <div class="spacer"></div>
                 <p>EnergySage</p>
                 <div class="desc-box">
                     <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
                 </div>
                 <div class="spacer"></div>
+                <p>College <span class="dark-txt">[Junior]</span></p>
+                <div class="desc-box">
+                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
                     <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                </div>
+                <p>College <span class="dark-txt">[Senior]</span></p>
+                <div class="desc-box">
+                    <p>Yet to be explored! Looking forward to taking Computer Architecture in the fall, and hoping to take OS in the winter to finish the major on a strong note...</p>
                 </div>
             </div>
         </div>
@@ -312,7 +322,7 @@
     .txt-cont {
         position: absolute;
         top: 0%;
-        width: 600px;
+        min-width: 600px;
         padding-top: 20vh;
         padding-bottom: calc(80vh);
         z-index: 1;
@@ -321,7 +331,7 @@
     }
     .exp-cont {
         position: absolute;
-        width: 650px;
+        min-width: calc(650px + 60vw);
         height: calc(100vh);
         top: 0vh;
         padding-top: 20vh;
@@ -331,15 +341,15 @@
         flex-direction: column;
         overflow-x: visible;
         overflow-y: scroll;
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 30vw;
+        padding-left: 30vw;
         scrollbar-width: 0px;
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
     .proj-cont {
         position: absolute;
-        width: 650px;
+        min-width: calc(650px + 60vw);
         height: calc(100vh);
         top: 0vh;
         padding-top: 20vh;
@@ -349,8 +359,8 @@
         flex-direction: column;
         overflow-x: visible;
         overflow-y: scroll;
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 30vw;
+        padding-left: 30vw;
         scrollbar-width: 0px;
         -ms-overflow-style: none;
         scrollbar-width: none;
@@ -374,7 +384,7 @@
     }
     .fade-layer {
         height: 100%;
-        width: calc(25vw - 50px);
+        width: calc(25vw - 45px);
         position: absolute;
         left: 0;
         top: 0;
@@ -461,8 +471,8 @@
         content: '';
         position: absolute;
         left: 0;
-        top: 12%; /* Start the border from 25% of the height */
-        bottom: 10%; /* End the border at 75% of the height */
+        top: 18px; /* Start the border from 25% of the height */
+        bottom: 15px; /* End the border at 75% of the height */
         width: 2px; /* Width of the border */
         background-color: var(--acc-thr);; /* Color of the border */
     }
@@ -471,6 +481,45 @@
         color: #AAA;
         font-weight: 200;
         letter-spacing: 0.3px;
+    }
+    .collage {
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        left: -12px;
+        position: relative;
+    }
+    .collage span {
+        height: 100%;
+        aspect-ratio: 1/1;
+        display: block;
+        border: 3px solid var(--acc-thr);
+        border-radius: 3px;
+    }
+    .collage div {
+        height: 100%;
+        aspect-ratio: 1/1;
+        display: block;
+        border: 4px solid #141414;
+    }
+    .sage {
+        background-image: url(./assets/sages.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .vr {
+        background-image: url(./assets/upnorth.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .shift {
+        background-image: url(./assets/creators.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .inner {
         width: 90%;
@@ -571,6 +620,10 @@
         color: var(--acc-thr);
         font-size: 16px;
         line-height: 20px;
+    }
+    .dark-txt {
+        color: #555;
+        margin-left: 5px;
     }
     #face {
         background-position: 0% 75%;
