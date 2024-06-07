@@ -174,12 +174,37 @@
                 <div class="spacer"></div>
                 <p>Early Life</p>
                 <div class="desc-box">
-                    <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
+                    <p>Computer science was a hobby of mine long before it was a career; at first, 
+                        I fell in love with making text-based games and basic HTML sites plastered 
+                        with images of pokemon. I'd always loved creating, and the value of being 
+                        able to build projects with no material costs can't be understated. In high school, 
+                        I capitalized on the skills I'd been building, running a small-scale freelance 
+                        business to make websites for family friends, neighbors, or anyone who was 
+                        interested. Beyond just improving my web development skills, I learned a 
+                        lot of valuable lessons; building with a deadline and collaborating with 
+                        clients that had no technical backgrounds were entirely new experiences 
+                        for me. Around the same time, I founded an engineering club with one of 
+                        my best friends - in the two years before we had to go remote due to the 
+                        pandemic, we grew the club to 30+ members and built a table cleaning robot
+                        that won a statewide invention competition, securing funds to help the
+                        organization thrive. For most of my time in the club, I taught C++ and basic
+                        circuity to new members, which helped me get a grasp on microcontrollers and
+                        simple embedded systems. My co-founder was a year older, and when he left, I assumed
+                        an administrative role, which proved to be another great learning experience for me. </p>
                 </div>
                 <div class="spacer"></div>
                 <p>College <span class="dark-txt">[Freshman & Sophmore]</span></p>
                 <div class="desc-box">
-                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                    <p>The start of college was a rush for me; I made many new friends and joined a business club in my
+                        first year, which has been beyond helpful in developing my professional skills. Even with the
+                        busier schedule, I made a distinct effort to keep up with my passion for building - I wrote a program
+                        to evaluate words for Wordle, which was popular at the time, and one to keep track of watering schedules
+                        for all the houseplants that I'd been collecting to remedy the lack of greenery (and air quality) in my
+                        dorm room. In sophomore year, I found my first real job in industry as a web developer for a student-run company on
+                        campus called <strong>MittenWeb</strong>. This year was also when my classes started to pick up - in the fall, I took and loved <strong>Computer Organization</strong>,
+                        which inspired me to pursue a minor in Electrical Engineering. In the winter, I took my first upper-level
+                        elective, <strong>Extended Reality and Society</strong>, which was a huge time commitment but also a lot of fun.
+                    </p>
                 </div>
                 <div class="collage">
                     <span><div class="sage"></div></span>
@@ -187,23 +212,33 @@
                     <span><div class="shift"></div></span>
                 </div>
                 <div class="spacer"></div>
-                <p>EnergySage</p>
+                <p>Summer</p>
                 <div class="desc-box">
-                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                    <p>That summer, I moved out of Michigan for the first time for an <strong>Software Engineering</strong> internship in Boston, at a company called <strong>EnergySage.</strong> 
+                        They were a smaller company that offered an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
+                        energy. I worked in a full-stack role on the customer-facing side of the site, which was my first experience with back-end development; 
+                        this gave me exposure to new technologies like Vue.js and Django. I also got to work with a team of engineers for the first time, 
+                        which was a great experience as I was constantly learning from my mentors. I really enjoyed this position, not only because I was learning a lot
+                        but also because it was an opportunity to contribute to a project that I was passionate about.
+                    </p>
                 </div>
                 <div class="spacer"></div>
                 <p>College <span class="dark-txt">[Junior]</span></p>
                 <div class="desc-box">
-                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                    <p>Coming back to school, I was revitalized with passion for my classes; I took <strong>Digital Logic Design</strong>, the first real class for my minor,
+                        which confirmed to me that it was the right choice. Verilog was like no language I'd worked with before, and it was super satisfying
+                        to interact with my creations via an electronic FPGA board. At the same time, I was taking <strong>Introduction to AI</strong>, which gave me a much
+                        deeper understanding of Neural Nets and modern tools like PyTorch. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
+                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
-                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                    <p>Check back in in a month or two!</p>
                 </div>
                 <p>College <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
-                    <p>Yet to be explored! Looking forward to taking Computer Architecture in the fall, and hoping to take OS in the winter to finish the major on a strong note...</p>
+                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the major on a strong note...</p>
                 </div>
             </div>
         </div>
@@ -474,14 +509,19 @@
         left: 0;
         top: 18px; /* Start the border from 25% of the height */
         bottom: 15px; /* End the border at 75% of the height */
-        width: 2px; /* Width of the border */
-        background-color: var(--acc-thr);; /* Color of the border */
+        width: 3px; /* Width of the border */
+        background-color: var(--acc-thr); /* Color of the border */
+        border-radius: 3px;
     }
     .desc-box p {
         font-size: 14px;
         color: #AAA;
         font-weight: 200;
         letter-spacing: 0.3px;
+    }
+    .desc-box strong {
+        font-weight: 500;
+        color: #C3C3C3;
     }
     .collage {
         width: 100%;
@@ -491,7 +531,7 @@
         justify-content: space-around;
         align-items: center;
         margin-bottom: 30px;
-        left: -12px;
+        left: -10px;
         position: relative;
     }
     .collage span {
