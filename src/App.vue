@@ -227,14 +227,17 @@
                 <div class="desc-box">
                     <p>Coming back to school, I was revitalized with passion for my classes; I took <strong>Digital Logic Design</strong>, the first real class for my minor,
                         which confirmed to me that it was the right choice. Verilog was like no language I'd worked with before, and it was super satisfying
-                        to interact with my creations via an electronic FPGA board. At the same time, I was taking <strong>Introduction to AI</strong>, which gave me a much
-                        deeper understanding of Neural Nets and modern tools like PyTorch. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
+                        to interact with my creations via an electronic FPGA board. I was also taking <strong>Introduction to AI</strong>, which gave me a much
+                        deeper understanding of Neural Nets and modern tools like PyTorch. That same semester, I joined a club on campus called <strong>Shift
+                        CreatorSpace</strong> (<a href="shiftcreator.space">shiftcreator.space</a>), where I found many close friends and reconnected with my love
+                        for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
                         away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
                     <p>Check back in in a month or two!</p>
+                    <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to try go even further and try working at a startup.  -->
                 </div>
                 <p>College <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
@@ -522,6 +525,10 @@
     .desc-box strong {
         font-weight: 500;
         color: #C3C3C3;
+    }
+    .desc-box a {
+        color: #AAA;
+        text-decoration: underline;
     }
     .collage {
         width: 100%;
