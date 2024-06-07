@@ -183,17 +183,18 @@
                         interested. Beyond just improving my web development skills, I learned a 
                         lot of valuable lessons; building with a deadline and collaborating with 
                         clients that had no technical backgrounds were entirely new experiences 
-                        for me. Around the same time, I founded an engineering club with one of 
+                        for me. Around the same time, I founded an <strong>Engineering Club</strong> with one of 
                         my best friends - in the two years before we had to go remote due to the 
                         pandemic, we grew the club to 30+ members and built a table cleaning robot
                         that won a statewide invention competition, securing funds to help the
-                        organization thrive. For most of my time in the club, I taught C++ and basic
+                        organization thrive. For most of my time in the club, I was the <strong>Education Chair</strong>,
+                        teaching C++ and basic
                         circuitry to new members, which helped me get a grasp on microcontrollers and
                         simple embedded systems. My co-founder was a year older, and when he left, I assumed
-                        the role of president, which proved to be another great learning experience for me. </p>
+                        the role of <strong>President</strong>, which proved to be another great learning experience for me. </p>
                 </div>
                 <div class="spacer"></div>
-                <p>College <span class="dark-txt">[Freshman & Sophmore]</span></p>
+                <p>University of Michigan <span class="dark-txt">[Freshman & Sophmore]</span></p>
                 <div class="desc-box">
                     <p>The start of college was a rush for me; I made many new friends and joined a business club in my
                         first year, which has been beyond helpful in developing my professional skills. Even with the
@@ -214,8 +215,8 @@
                 <div class="spacer"></div>
                 <p>EnergySage</p>
                 <div class="desc-box">
-                    <p>That summer, I moved out of Michigan for the first time for an <strong>Software Engineering</strong> internship in Boston, at a company called <strong>EnergySage.</strong> 
-                        They were a smaller company that offered an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
+                    <p>In the summer of 2023, I moved out of Michigan for the first time for an <strong>Software Engineering</strong> internship in Boston, at a company called <strong>EnergySage.</strong> 
+                        They are a smaller company that offers an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
                         energy. I worked in a full-stack role on the customer-facing side of the site, which was my first experience with back-end development; 
                         this gave me exposure to new technologies like Vue.js and Django. I also got to work with a team of engineers for the first time, 
                         which was a great experience as I was constantly learning from my mentors. I really enjoyed this position, not only because I was learning a lot
@@ -223,7 +224,7 @@
                     </p>
                 </div>
                 <div class="spacer"></div>
-                <p>College <span class="dark-txt">[Junior]</span></p>
+                <p>University of Michigan <span class="dark-txt">[Junior]</span></p>
                 <div class="desc-box">
                     <p>Coming back to school, I was revitalized with passion for my classes; I took <strong>Digital Logic Design</strong>, the first real class for my minor,
                         which confirmed to me that it was the right choice. Verilog was like no language I'd worked with before, and it was super satisfying
@@ -231,8 +232,9 @@
                         deeper understanding of Neural Nets and modern tools like PyTorch. That same semester, I joined a club on campus called <strong>Shift
                         CreatorSpace</strong> (<a href="shiftcreator.space">shiftcreator.space</a>), where I found many close friends and reconnected with my love
                         for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
-                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. I also wrote and taught
-                        a workshop in excel for my peers in the business club.</p>
+                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. Another highlight of 
+                        my semester was writing and teaching an excel skills workshop for my peers in the business club, another opportunity to hone my passion
+                        for teaching - similar to my engineering club in high school</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
