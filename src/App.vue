@@ -129,7 +129,7 @@
             </div>
         </div>
     </Frame>
-    <Frame pos="0" :glass="glass" :off="thrOff" title="ABOUT ME" color="--acc-thr" @toggle="togglePos($event)" :style="transitionStyle">
+    <Frame pos="0" :glass="glass" :off="thrOff" title="ABOUT ME" color="--acc-thr" @toggle="togglePos($event)">
         <div class="cont">
             <div class="inner two">
                 <h2>HERE'S MORE</h2>
@@ -167,13 +167,6 @@
                 },
                 mountedComplete: false,
             };
-        },
-        computed: {
-        transitionStyle() {
-                return {
-                    transition: `left ${this.mountedComplete ? '0.5s' : '0s'}`,
-                };
-            },
         },
         async mounted() {
             if (!window.location.hash) {

@@ -52,5 +52,6 @@
         transform-origin: top left;
         white-space: nowrap;
         color: inherit;
+        pointer-events: none;
     }
 </style>

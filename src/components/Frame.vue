@@ -3,12 +3,14 @@
 </script>
 
 <template>
-    <div class="wrap" :style="{ zIndex: pos, left: off }">
+    <Transition>
+    <div class="wrap" :style="transitionStyle">
         <div class="cont">
             <slot/>
         </div>
         <NavStrip :title="title" :color="color" @click="$emit('toggle', pos)"/>
     </div>
+</Transition>
 </template>
 
 <script>
@@ -21,7 +23,15 @@
         ],
         // data() {
         // }
-    }
+        computed: {
+            transitionStyle() {
+                return {
+                    'zIndex': this.pos,
+                    left: this.off,
+                };
+            },
+        },
+    };
 </script>
 
 <style scoped>
@@ -29,6 +39,7 @@
         height: 100%;
         display: flex;
         position: fixed;
+        transition: left 0.5s;
     }
     .cont {
         width: calc(100vw - 130px);
