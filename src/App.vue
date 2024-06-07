@@ -322,7 +322,7 @@
     .txt-cont {
         position: absolute;
         top: 0%;
-        min-width: 600px;
+        width: 600px;
         padding-top: 20vh;
         padding-bottom: calc(80vh);
         z-index: 1;
