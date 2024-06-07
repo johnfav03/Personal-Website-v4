@@ -493,18 +493,19 @@
         background-size: cover;
     }
     .quote {
-        padding: 20px;
-        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
         letter-spacing: 0.3px;
     }
     .quote .acc {
         color: var(--acc-thr);
-        font-size: 20px;
+        font-size: 22px;
         line-height: 30px;
     }
     .quote .auth {
         color: var(--acc-thr);
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
     #face {
