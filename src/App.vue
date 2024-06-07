@@ -21,7 +21,7 @@
 
                     When I’m not busy with school, you can usually find me 
                     building (or breaking) something, taking long walks, 
-                    listening to music, or shopping for houseplants. 
+                    listening to music, cross-stitching, or shopping for houseplants. 
                     If you’d like to chat, feel free to shoot me an email at 
                     <strong>johnfav@umich.edu</strong>.<br><br>
 
@@ -39,93 +39,125 @@
                         <h1>PROJECTS</h1>
                     </div>
                 </div>
-                <p>To take a closer look, check out my <a href="https://github.com/johnfav03" target="_blank">GitHub</a>, or click on each card! 🖱️👈</p>
                 <div class="proj-grid">
-                    <h3 class="sect-title">
-                        MY FAVORITES
-                    </h3>
+                    <div class="sect-title">
+                        <p>
+                            These are my current favorites<span class="colon"> :</span>
+                        </p>
+                    </div>
                     <div class="spacer"></div>
                     <ProjCard 
                         image="qsor-model.png"
-                        title="QSOR ODOR CLASSIFIER"
+                        title="QSOR SCENT CLASSIFIER"
                         messg="This project was a GCN implemented in Pytorch and deployed it to AWS Fargate using Docker. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
-                        date="SM 2024"
+                        date="SM 24"
+                    />
+                    <div class="spacer"></div>
+                    <ProjCard 
+                        image="steane-code.png"
+                        title="STEANE DECODER"
+                        messg="EECS 479 was my first venture into the Quantum Computing; the final project was an error correction circuit for the Steane encoding using Qiskit, complete with a decoder and fault-tolerant gates."
+                        date="FA 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="quote-api.png"
                         title="QUOTE API"
                         messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. Its 'random/' endpoint is connected to the next page, try refreshing a few times!"
-                        date="SM 2023"
+                        date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="stick-sim.png"
                         title="STICK SHIFT SIM"
-                        messg="This was the final project for EECS 498, a self-led project, which utilized VR through Unreal to deliver an immersive manual driving trainer, complete with realistic physics and grip controls."
-                        date="WN 2023"
+                        messg="This was the final project for EECS 498, a self-led project, which used Unreal Engine 5 to deliver an immersive Virtual Reality simulator for driving manual, featuring realistic physics and grip controls."
+                        date="WN 23"
                     />
                     <div class="spacer"></div>
-                    <h3 class="sect-title">
-                        ALL
-                    </h3>
+                    <div class="spacer"></div>
+                    <div class="sect-title">
+                        <p>
+                            And these make up the rest of my collection<span class="colon"> :</span>
+                        </p>
+                    </div>
+                    <div class="spacer"></div>
+                    <ProjCard 
+                        image="othello-ai.png"
+                        title="FIREFIGHTING CAR"
+                        messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm on my own to optimize hyper-parameters, drastically increasing the winrate."
+                    />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="othello-ai.png"
                         title="ALPHAZERO OTHELLO"
-                        messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm to optimize hyper-parameters, increasing winrate from 66% to 90%."
-                        date="FA 2023"
+                        messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm on my own to optimize hyper-parameters, drastically increasing the winrate."
+                        date="FA 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="mbta-pred.png"
                         title="MBTA PREDICTOR"
                         messg="This project was a machine learning model using the Python library Tensorflow to predict the travel times of the Boston T, and used GitHub Actions to make and refine its predictions daily."
-                        date="SM 2023"
+                        date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="branch-sage.png"
                         title="BRANCH SAGE"
                         messg="This started as a bash script to manage branches following a naming convention, then incorporated tools like the Jira and GitHub APIs to generate branch names and automate processes."
-                        date="SM 2023"
+                        date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="a2-go.png"
                         title="ANN ARBOR GO!"
                         messg="This was the second project for EECS 498, which uses Unity and Mapbox to replicate both the geolocational and AR features of Pokemon Go, but themed for Ann Arbor."
-                        date="WN 2023"
+                        date="WN 23"
+                    />
+                    <div class="spacer"></div>
+                    <ProjCard 
+                        image="vue-weather.png"
+                        title="WEATHER APP"
+                        messg="Developed in Vue.js, this project was started to learn front-end frameworks and API calls. The web app features geolocational search as well as live weather and temperature from the OpenWeather API."
+                        date="FA 22"
+                    />
+                    <div class="spacer"></div>
+                    <ProjCard 
+                        image="django-dz.png"
+                        title="IMAGE DROPZONE"
+                        messg="This project was meant to help learn backend concepts, and uses a simple front-end with Dropzone.js to pass images to Django, so they can be cached and displayed on the next page."
+                        date="WN 22"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="wordle.png"
                         title="WORDLE EVALUATOR"
                         messg="Utilizing the terminal, this program analyzed starting words, either from input or a database, for both positional and non-specific likelihood, giving each a score and storing the top results. "
-                        date="FA 2021"
+                        date="FA 21"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="eng-club.png"
                         title="ENGINEERING CLUB"
                         messg="I founded and nurtured this organization in high school with a close friend, where I took up the position of Education Chair teaching C++ and basic circuity targeted at Arduino Microcontrollers."
-                        date="WN 2020"
+                        date="WN 20"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="flappy-bird.png"
                         title="FLAPPY BIRD"
                         messg="This was the capstone project for my first computer science course, and used Java and Greenfoot to simulate the then-popular mobile game, flappy bird, using custom sprites and adjustable gravity."
-                        date="FA 2017"
+                        date="FA 17"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="valentine.png"
                         title="V-DAY OPERATION"
                         messg="This was a device I made in middle school as a Valentine's Day gift; it was a themed version of the game 'operation', triggering a buzzer if the pair of tweezers contacted the metal heart."
-                        date="WN 2016"
+                        date="WN 16"
                     />
                 </div>
+                <p>To take a closer look, check out my <a href="https://github.com/johnfav03" target="_blank">GitHub</a> 👈</p>
             </div>
         </div>
     </Frame>
@@ -272,21 +304,32 @@
         background: linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5));
     }
     .txt-cont {
-        position: relative;
-        top: -5%;
+        position: absolute;
+        top: 0%;
         width: 600px;
-        margin-top: 100px;
+        margin-top: 20vh;
         margin-bottom: 100px;
     }
     .proj-cont {
-        position: relative;
-        width: 600px;
-        height: calc(100vh - 100px);
-        margin-top: 50px;
-        margin-bottom: 50px;
+        position: absolute;
+        width: 650px;
+        height: calc(100vh);
+        top: 0vh;
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         overflow-x: visible;
+        overflow-y: scroll;
+        padding-right: 25px;
+        padding-left: 25px;
+        scrollbar-width: 0px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .proj-cont::-webkit-scrollbar {
+        display: none;
     }
     .intro-box {
         height: 100px;
@@ -342,6 +385,7 @@
         margin-top: 10px;
         z-index: 1;
         position: relative;
+        font-size: 18px;
     }
     .inner {
         width: 90%;
@@ -382,20 +426,17 @@
     .proj-grid {
         position: relative;
         margin-top: 20px;
-        flex-grow: 1;
-        overflow-y: scroll;
-        overflow-x: visible;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
         z-index: 3;
+        padding-bottom: 30px;
+    }
+    .colon {
+        letter-spacing: -2px;
+        font-weight: 500;
     }
     .spacer {
         height: 15px;
         width: 100%;
         display: block;
-    }
-    .proj-grid::-webkit-scrollbar {
-        display: none;
     }
     .mobile-error {
         display: none;

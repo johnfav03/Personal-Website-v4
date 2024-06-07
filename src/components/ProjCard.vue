@@ -5,7 +5,6 @@
             <div class="text-block">
                 <div class="title-block">
                     <h1>{{ title }}</h1>
-                    <h2>{{ date }}</h2>
                 </div>
                 <p>{{ messg }}</p>
             </div>
@@ -19,8 +18,6 @@
             'image',
             'messg',
             'title',
-            'date',
-            'techs',
         ],
     }
 </script>
@@ -45,22 +42,26 @@
         flex-direction: row;
     }
     .card-cont h1 {
-        font-size: 18px;
         float: left;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        color: var(--acc-two);
     }
     .card-cont h2 {
-        font-size: 15px;
-        height: 20px;
-        line-height: 20px;
-        display: block;
-        color: var(--acc-two);
-        opacity: 0.8;
         float: right;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        color: var(--acc-two);
     }
     .card-cont p {
         padding-top: 5px;
         display: block;
         font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 0.2px;
+        color: white;
     }
     .techs {
         height: 100%;
