@@ -216,9 +216,9 @@
                 <div class="spacer"></div>
                 <p>EnergySage</p>
                 <div class="desc-box">
-                    <p>In the summer of 2023, I moved out of Michigan for the first time for an <strong>Software Engineering</strong> internship in Boston, at a company called <strong>EnergySage.</strong> 
+                    <p>In the summer of 2023, I moved out of Michigan for the first time to pursue an internship in Boston, at a company called <strong>EnergySage.</strong> 
                         They are a smaller company that offers an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
-                        energy. I worked in a full-stack role on the customer-facing side of the site, which was my first experience with back-end development; 
+                        energy. I was a <strong>Software Engineer Intern</strong> in a full-stack role on their rooftop consumer team, which was my first experience with back-end development; 
                         this gave me exposure to new technologies like Vue.js and Django. I also got to work with a team of engineers for the first time, 
                         which was a great experience as I was constantly learning from my mentors. I really enjoyed this position, not only because I was learning a lot
                         but also because it was an opportunity to contribute to a project that I was passionate about.
@@ -240,12 +240,19 @@
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
-                    <p>Check back in in a month or two!</p>
-                    <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to try go even further and try working at a startup.  -->
+                    <p>EnergySage had shown me what it was like to work at a smaller company, but I wanted to go even further and try working at a startup. In the summer
+                        of 2024, I got the opportunity to do just that as a <strong>Software Engineer Intern</strong> at a company called <strong>Tavus</strong> in San Francisco. 
+                        They are a small machine learning startup that works
+                        with talking head technology and realistic video generation, and this was my first experience with machine learning in a professional context. I
+                        worked mainly with Flask in a back-end focused role on their platform team, which helped me get a grasp on new technologies like Docker and AWS.
+                        Overall, I enjoyed the faster-paced environment and the atmosphere there, and I learned a lot about the world of startups. It was greatly satisfying to
+                        take more responsibility for my work and see the fruits of my effort, and I loved the exposure to cutting edge technologies.
+                    </p>
+                    <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to go even further and try working at a startup.  -->
                 </div>
                 <p>University of Michigan <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
-                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the major on a strong note...</p>
+                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the computer science major on a strong note...</p>
                 </div>
             </div>
         </div>
