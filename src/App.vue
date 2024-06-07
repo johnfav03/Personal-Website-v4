@@ -29,6 +29,10 @@
                     some of my work or get to know me a bit better!</p>
             </div>
         </div>
+        <div class="img-cont">
+            <div class="fade-layer"></div>
+            <div class="bg-img"></div>
+        </div>
     </Frame>
     <Frame pos="1" :glass="glass" :off="twoOff" title="PROJECTS" color="--acc-two" @toggle="togglePos($event)">
         <div class="cont">
@@ -164,15 +168,33 @@
     <Frame pos="0" :glass="glass" :off="thrOff" title="EXPERIENCES" color="--acc-thr" @toggle="togglePos($event)">
         <div class="cont">
             <div class="exp-cont">
-                <h2>HERE'S MORE</h2>
-                <h1>ABOUT ME</h1>
-                <div class="spacer"></div>
+                <h2>HERE'S MORE ON MY</h2>
+                <h1>EXPERIENCES</h1>
                 <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
-                <h3>My Experience with Web Development</h3>
-                <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
                 <div class="spacer"></div>
-                <h3>My Experience with Embedded Systems</h3>
-                <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                <p>Early life</p>
+                <div class="desc-box">
+                    <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <p>College</p>
+                <div class="desc-box">
+                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <p>EnergySage</p>
+                <div class="desc-box">
+                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                </div>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <p>Tavus</p>
+                <div class="desc-box">
+                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
+                </div>
             </div>
         </div>
     </Frame>
@@ -279,17 +301,6 @@
         justify-content: center;
         flex-direction: column;
     }
-    .bg-img {
-        width: 100%;
-        height: 100%;
-        background-image: url(./assets/IMG_2923.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: 0% 65%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
     .layer {
         width: 100%;
         height: 100%;
@@ -302,8 +313,11 @@
         position: absolute;
         top: 0%;
         width: 600px;
-        margin-top: 20vh;
-        margin-bottom: 100px;
+        padding-top: 20vh;
+        padding-bottom: calc(80vh);
+        z-index: 1;
+        background-color: var(--bg-dark);
+        padding-left: 30px;
     }
     .exp-cont {
         position: absolute;
@@ -354,6 +368,32 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
+    }
+    .img-cont {
+        z-index: 0;
+    }
+    .fade-layer {
+        height: 100%;
+        width: calc(25vw - 50px);
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        background-image: linear-gradient(to right, rgba(20, 20, 20, 0.92) 0%, rgba(20, 20, 20, 1) 95%);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
+        z-index: 1;
+    }
+    .bg-img {
+        background-image: url(./assets/standing.png);
+        height: 100%;
+        width: 25vw;
+        position: absolute;
+        left: -50px;
+        top: 0;
+        display: block;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .headshot {
         height: 100%;
@@ -408,6 +448,29 @@
     }
     .exp-cont p {
         font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .desc-box {
+        padding: 15px;
+        padding-left: 15px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .desc-box::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 12%; /* Start the border from 25% of the height */
+        bottom: 10%; /* End the border at 75% of the height */
+        width: 2px; /* Width of the border */
+        background-color: var(--acc-thr);; /* Color of the border */
+    }
+    .desc-box p {
+        font-size: 14px;
+        color: #AAA;
+        font-weight: 200;
+        letter-spacing: 0.3px;
     }
     .inner {
         width: 90%;
@@ -456,7 +519,7 @@
         font-weight: 500;
     }
     .spacer {
-        height: 15px;
+        height: 15px !important;
         width: 100%;
         display: block;
     }
@@ -493,20 +556,21 @@
         background-size: cover;
     }
     .quote {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 25px;
+        padding-bottom: 40px;
         font-size: 16px;
         letter-spacing: 0.3px;
     }
     .quote .acc {
         color: var(--acc-thr);
-        font-size: 22px;
+        font-size: 18px;
         line-height: 30px;
+        font-family: "Seymour One", sans-serif;
     }
     .quote .auth {
         color: var(--acc-thr);
         font-size: 16px;
-        line-height: 30px;
+        line-height: 20px;
     }
     #face {
         background-position: 0% 75%;

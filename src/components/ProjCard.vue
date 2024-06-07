@@ -61,7 +61,7 @@
         font-size: 14px;
         font-weight: 200;
         letter-spacing: 0.2px;
-        color: white;
+        color: #AAA;
     }
     .techs {
         height: 100%;
