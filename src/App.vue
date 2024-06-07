@@ -212,7 +212,7 @@
                     <span><div class="shift"></div></span>
                 </div>
                 <div class="spacer"></div>
-                <p>Summer</p>
+                <p>EnergySage</p>
                 <div class="desc-box">
                     <p>That summer, I moved out of Michigan for the first time for an <strong>Software Engineering</strong> internship in Boston, at a company called <strong>EnergySage.</strong> 
                         They were a smaller company that offered an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
