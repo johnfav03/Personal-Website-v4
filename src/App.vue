@@ -82,9 +82,9 @@
                     </div>
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="othello-ai.png"
+                        image="fire-car.png"
                         title="FIREFIGHTING CAR"
-                        messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm on my own to optimize hyper-parameters, drastically increasing the winrate."
+                        messg="This was a self-led project for my Embedded Sys class, where we used 2 STM32s to remotely control a chassis with a swiveling IR sensor assembly, designed to locate fires and fire victims."
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -118,14 +118,14 @@
                     <ProjCard 
                         image="vue-weather.png"
                         title="WEATHER APP"
-                        messg="Developed in Vue.js, this project was started to learn front-end frameworks and API calls. The web app features geolocational search as well as live weather and temperature from the OpenWeather API."
+                        messg="Developed in Vue.js, this project was started to learn front-end frameworks and basic API structure. The web app features geolocational search as well as live weather and temperature from the OpenWeather API."
                         date="FA 22"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="django-dz.png"
                         title="IMAGE DROPZONE"
-                        messg="This project was meant to help learn backend concepts, and uses a simple front-end with Dropzone.js to pass images to Django, so they can be cached and displayed on the next page."
+                        messg="This project was meant to help learn backend structure and concepts, using a simple front-end with Dropzone.js to pass images to Django so they can be stored and displayed on the next page."
                         date="WN 22"
                     />
                     <div class="spacer"></div>
@@ -161,23 +161,18 @@
             </div>
         </div>
     </Frame>
-    <Frame pos="0" :glass="glass" :off="thrOff" title="ABOUT ME" color="--acc-thr" @toggle="togglePos($event)">
+    <Frame pos="0" :glass="glass" :off="thrOff" title="EXPERIENCES" color="--acc-thr" @toggle="togglePos($event)">
         <div class="cont">
-            <div class="inner two">
+            <div class="exp-cont">
                 <h2>HERE'S MORE</h2>
                 <h1>ABOUT ME</h1>
-                <div class="about-left">
-                    <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
-                    <h3>My Experience with Web Development</h3>
-                    <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
-                    <h3>My Experience with Embedded Systems</h3>
-                    <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
-                </div>
-                <div class="about-right">
-                    <div style="backgroundImage: url(backpack.jpg)"></div>
-                    <div style="backgroundImage: url(face.jpg)" id="face"></div>
-                    <div style="backgroundImage: url(ice.jpg)"></div>
-                </div>
+                <div class="spacer"></div>
+                <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
+                <h3>My Experience with Web Development</h3>
+                <p>Computer science was a hobby of mine long before it was a career; in high school, I started to utilize those skills professionally and began developing websites freelance. It started with just static html and css, but eventually the demands grew and I learned javascript, which later led me to frameworks and modern web development. This is blossomed into my full time career, where I now work in a full-stack role when I’m not studying.</p>
+                <div class="spacer"></div>
+                <h3>My Experience with Embedded Systems</h3>
+                <p>Also in high school, around when I started freelancing, I also helped a friend start an engineering club at our school. He took up the role of president, and I took on the role of Education Chair, teaching our members C++ and circuitry for Arduino and simple robotics. These days, I'm pursuing this interest in the form of an Electrical Engineering minor, and I continue to be fascinated by electronics in my free time.</p>
             </div>
         </div>
     </Frame>
@@ -310,6 +305,24 @@
         margin-top: 20vh;
         margin-bottom: 100px;
     }
+    .exp-cont {
+        position: absolute;
+        width: 650px;
+        height: calc(100vh);
+        top: 0vh;
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        overflow-x: visible;
+        overflow-y: scroll;
+        padding-right: 25px;
+        padding-left: 25px;
+        scrollbar-width: 0px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
     .proj-cont {
         position: absolute;
         width: 650px;
@@ -364,6 +377,11 @@
         color: var(--acc-two);
         line-height: 66px;
     }
+    .exp-cont h1 {
+        font-size: 66px;
+        color: var(--acc-thr);
+        line-height: 66px;
+    }
     h2 {
         font-size: 25px;
     }
@@ -386,6 +404,10 @@
         z-index: 1;
         position: relative;
         font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .exp-cont p {
+        font-family: "Open Sans", sans-serif;
     }
     .inner {
         width: 90%;
@@ -471,9 +493,9 @@
         background-size: cover;
     }
     .quote {
-        margin-top: -20px;
         padding: 20px;
-        font-size: 1.08vw;
+        font-size: 14px;
+        letter-spacing: 0.3px;
     }
     .quote .acc {
         color: var(--acc-thr);
