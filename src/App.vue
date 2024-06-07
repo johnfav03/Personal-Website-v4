@@ -310,6 +310,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        overflow: hidden;
     }
     .layer {
         width: 100%;
@@ -331,7 +332,7 @@
     }
     .exp-cont {
         position: absolute;
-        min-width: calc(650px + 60vw);
+        min-width: calc(650px + 50vw);
         height: calc(100vh);
         top: 0vh;
         padding-top: 20vh;
@@ -341,15 +342,15 @@
         flex-direction: column;
         overflow-x: visible;
         overflow-y: scroll;
-        padding-right: 30vw;
-        padding-left: 30vw;
+        padding-right: 25vw;
+        padding-left: 25vw;
         scrollbar-width: 0px;
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
     .proj-cont {
         position: absolute;
-        min-width: calc(650px + 60vw);
+        min-width: calc(650px + 50vw);
         height: calc(100vh);
         top: 0vh;
         padding-top: 20vh;
@@ -359,8 +360,8 @@
         flex-direction: column;
         overflow-x: visible;
         overflow-y: scroll;
-        padding-right: 30vw;
-        padding-left: 30vw;
+        padding-right: 25vw;
+        padding-left: 25vw;
         scrollbar-width: 0px;
         -ms-overflow-style: none;
         scrollbar-width: none;
