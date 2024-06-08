@@ -175,37 +175,26 @@
                 <div class="spacer"></div>
                 <p>Early Life</p>
                 <div class="desc-box">
-                    <p>Computer science was a hobby of mine long before it was a career; at first, 
-                        I fell in love with making text-based games and basic HTML sites plastered 
-                        with images of pokemon. I'd always loved creating, and the value of being 
-                        able to build projects with no material costs can't be understated. In high school, 
-                        I capitalized on the skills I had been building, running a small-scale freelance 
-                        business to make websites for family friends, neighbors, and anyone who was 
-                        interested. Beyond just improving my web development skills, I learned a 
-                        lot of valuable lessons; building with a deadline and collaborating with 
-                        clients that had no technical backgrounds were entirely new experiences 
-                        for me. Around the same time, I founded an <strong>Engineering Club</strong> with one of 
-                        my best friends - in the two years before we had to go remote due to the 
-                        pandemic, we grew the club to 30+ members and built a table cleaning robot
-                        that won a statewide invention competition, securing funds to help the
-                        organization thrive. For most of my time in the club, I was the <strong>Education Chair</strong>,
-                        teaching C++ and basic
-                        circuitry to new members, which helped me get a grasp on microcontrollers and
-                        simple embedded systems. My co-founder was a year older, and when he left, I assumed
-                        the role of <strong>President</strong>, which proved to be another great learning experience for me. </p>
+                    <p>Computer science was a hobby of mine long before it was a career; in high school, I capitalized on these skills,
+                        developing websites freelance, where I had to learn how to
+                        work with clients with no technical backgrounds. I also founded an <strong>Engineering Club</strong>, 
+                        which grew to 30+ members and built a table cleaning robot
+                        that won a statewide competition. My role in the club was
+                        teaching C++ and basic circuitry for Arduino, which gave me a grasp on
+                        simple embedded systems. When my co-founder graduated, I took on
+                        the role of <strong>President</strong>.
+                    </p>
                 </div>
                 <div class="spacer"></div>
                 <p>University of Michigan <span class="dark-txt">[Freshman & Sophmore]</span></p>
                 <div class="desc-box">
-                    <p>The start of college was a rush for me; I made many new friends and joined a business club in my
-                        first year, which has been beyond helpful in developing my professional skills. Even with the
-                        busier schedule, I made a distinct effort to keep up with my passion for building - I wrote a program
-                        to evaluate words for Wordle, which was popular at the time, and one to keep track of watering schedules
-                        for all the houseplants that I'd been collecting to remedy the lack of greenery (and air quality) in my
-                        dorm room. In sophomore year, I found my first real job in industry as a web developer for a student-run company on
-                        campus called <strong>MittenWeb</strong>. This year was also when my classes started to pick up - in the fall, I took and loved <strong>Computer Organization</strong>,
-                        which inspired me to pursue a minor in Electrical Engineering. In the winter, I took my first upper-level
-                        elective, <strong>Extended Reality and Society</strong>, which was a huge time commitment but also a lot of fun.
+                    <p>Though college was busy, I made a distinct effort to keep up with my passion for building - I wrote a program
+                        to evaluate words for Wordle, and one to keep track of watering schedules
+                        for the houseplants that I'd collected to fix the lack of greenery (and air quality) in my
+                        dorm. In sophomore year, I joined <strong>MittenWeb</strong>, a student-run web development company on campus.
+                        During this year, I took my first upper-level
+                        elective, <strong>Extended Reality and Society</strong>, as well as <strong>Computer Organization</strong>,
+                        which I loved and which inspired me to pursue an EE minor.
                     </p>
                 </div>
                 <div class="collage">
@@ -216,37 +205,28 @@
                 <div class="spacer"></div>
                 <p>EnergySage</p>
                 <div class="desc-box">
-                    <p>In the summer of 2023, I moved out of Michigan for the first time to pursue an internship in Boston, at a company called <strong>EnergySage.</strong> 
-                        They are a smaller company that offers an online solar marketplace to match customers with installers, as well as educational resources on transitioning to solar
-                        energy. I was a <strong>Software Engineer Intern</strong> in a full-stack role on their rooftop consumer team, which was my first experience with back-end development; 
-                        this gave me exposure to new technologies like Vue.js and Django. I also got to work with a team of engineers for the first time, 
-                        which was a great experience as I was constantly learning from my mentors. I really enjoyed this position, not only because I was learning a lot
-                        but also because it was an opportunity to contribute to a project that I was passionate about.
+                    <p>In the summer of 2023, I moved to Boston to work as a <strong>Software Engineer Intern</strong> at a small company called <strong>EnergySage</strong>.
+                        I worked in a full-stack role on their rooftop consumer team using technologies like Vue and Django - this was my first encounter with
+                        back-end work, which I quickly developed an enthusiasm for. I greatly enjoyed this position, as it not only provided 
+                        me with valuable learning opportunities and mentorship more experienced engineers, but also the chance to contribute to a project I was passionate about.
                     </p>
                 </div>
                 <div class="spacer"></div>
                 <p>University of Michigan <span class="dark-txt">[Junior]</span></p>
                 <div class="desc-box">
-                    <p>Coming back to school, I was revitalized with passion for my classes; I took <strong>Digital Logic Design</strong>, the first real class for my minor,
-                        which confirmed to me that it was the right choice. Verilog was like no language I'd worked with before, and it was super satisfying
-                        to interact with my creations via an electronic FPGA board. I was also taking <strong>Introduction to AI</strong>, which gave me a much
-                        deeper understanding of Neural Nets and modern tools like PyTorch. That same semester, I joined a club on campus called <strong>Shift
-                        CreatorSpace</strong> (<a href="shiftcreator.space">shiftcreator.space</a>), where I found many close friends and reconnected with my love
-                        for building, both related to CS and in other areas. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
-                        away knowing much more about C and writing code for hardware, it was probably the hardest class I've taken to date. Another highlight of 
-                        my semester was developing and teaching an excel skills workshop for my peers in the business club, another opportunity to hone my passion
-                        for teaching - building on my Engineering Club teaching role in high school.</p>
+                    <p>Coming back to school, I took <strong>Digital Logic Design</strong>, which confirmed my interest in the EE minor, and <strong>Intro to AI</strong>, which gave me a
+                        deeper understanding of Neural Nets and PyTorch. That same semester, I joined a club on campus called <a href="https://shiftcreator.space" target="_blank"><strong>Shift
+                        CreatorSpace</strong></a>, where I was able to reconnect with my love for building. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
+                        away with a much more thorough knowledge of C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
-                    <p>EnergySage had shown me what it was like to work at a smaller company, but I wanted to go even further and try working at a startup. In the summer
-                        of 2024, I got the opportunity to do just that as a <strong>Software Engineer Intern</strong> at a company called <strong>Tavus</strong> in San Francisco. 
-                        They are a small machine learning startup that works
-                        with talking head technology and realistic video generation, and this was my first experience with machine learning in a professional context. I
-                        worked mainly with Flask in a back-end focused role on their platform team, which helped me get a grasp on new technologies like Docker and AWS.
-                        Overall, I enjoyed the faster-paced environment and the atmosphere there, and I learned a lot about the world of startups. It was greatly satisfying to
-                        take more responsibility for my work and see the fruits of my effort, and I loved the exposure to cutting edge technologies.
+                    <p>EnergySage had shown me life at a smaller company, but I wanted to take a step deeper. In the summer of 2024, I moved to San Francisco
+                        to work as a <strong>Software Engineer Intern</strong>
+                        at a startup named <strong>Tavus</strong>. I worked mainly with Flask in a back-end focused role on their platform team, 
+                        which helped me get a grasp on technologies like Docker and AWS. I appreciated the faster-paced environment as well as the exposure to cutting edge technologies, 
+                        and working here taught me a lot about taking full ownership over my projects.
                     </p>
                     <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to go even further and try working at a startup.  -->
                 </div>
