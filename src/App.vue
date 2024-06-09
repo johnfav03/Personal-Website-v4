@@ -53,7 +53,7 @@
                     <ProjCard 
                         image="qsor-model.png"
                         title="QSOR SCENT CLASSIFIER"
-                        messg="This project was a GCN implemented in Pytorch and deployed to AWS Fargate using Docker. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
+                        messg="This project was a GCN implemented in Pytorch meant to predict the odors of molecules. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
                         date="SM 24"
                     />
                     <div class="spacer"></div>
