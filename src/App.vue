@@ -51,28 +51,28 @@
                     </div>
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="qsor-model.png"
+                        image="qsor-model.jpeg"
                         title="QSOR SCENT CLASSIFIER"
                         messg="This project was a GCN implemented in Pytorch meant to predict the odors of molecules. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
                         date="SM 24"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="steane-code.png"
+                        image="steane-code.jpeg"
                         title="STEANE DECODER"
                         messg="EECS 479 was my first venture into the Quantum Computing; the final project was an error correction circuit for the Steane encoding using Qiskit, complete with a decoder and fault-tolerant gates."
                         date="FA 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="quote-api.png"
+                        image="quote-api.jpeg"
                         title="QUOTE API"
                         messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. Its 'random/' endpoint is connected to the experiences page, try refreshing a few times!"
                         date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="stick-sim.png"
+                        image="stick-sim.jpeg"
                         title="STICK SHIFT SIM"
                         messg="This was the final project for EECS 498, a self-led project, which used Unreal Engine 5 to deliver an immersive Virtual Reality simulator for driving manual, featuring realistic physics and grip controls."
                         date="WN 23"
@@ -87,76 +87,76 @@
                     </div>
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="fire-car.png"
+                        image="fire-car.jpeg"
                         title="FIREFIGHTING CAR"
                         messg="This was a self-led project for my Embedded Sys class, where we used 2 STM32s to remotely control a chassis with a swiveling IR sensor assembly, designed to locate fires and fire victims."
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="othello-ai.png"
+                        image="othello-ai.jpeg"
                         title="ALPHAZERO OTHELLO"
                         messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm on my own to optimize hyper-parameters, drastically increasing the winrate."
                         date="FA 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="mbta-pred.png"
+                        image="mbta-pred.jpeg"
                         title="MBTA PREDICTOR"
                         messg="This project was a machine learning model using the Python library Tensorflow to predict the travel times of the Boston T, and used GitHub Actions to make and refine its predictions daily."
                         date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="branch-sage.png"
+                        image="branch-sage.jpeg"
                         title="BRANCH SAGE"
                         messg="This started as a bash script to manage branches following a naming convention, then incorporated tools like the Jira and GitHub APIs to generate branch names and automate processes."
                         date="SM 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="a2-go.png"
+                        image="a2-go.jpeg"
                         title="ANN ARBOR GO"
                         messg="This was the second project for EECS 498, which uses Unity and Mapbox to replicate both the geolocational and AR features of Pokemon Go, but themed for Ann Arbor."
                         date="WN 23"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="vue-weather.png"
+                        image="vue-weather.jpeg"
                         title="WEATHER APP"
                         messg="Developed in Vue.js, this project was started to learn front-end frameworks and basic API structure. The web app features geolocational search as well as live weather and temperature from the OpenWeather API."
                         date="FA 22"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="django-dz.png"
+                        image="django-dz.jpeg"
                         title="IMAGE DROPZONE"
                         messg="This project was meant to help learn backend structure and concepts, using a simple front-end with Dropzone.js to pass images to Django so they can be stored and displayed on a separate page in the web app."
                         date="WN 22"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="wordle.png"
+                        image="wordle.jpeg"
                         title="WORDLE EVALUATOR"
                         messg="Utilizing the terminal, this program analyzed starting words, either from input or a file, for both positional and non-specific likelihood, giving each a score and storing the top results. "
                         date="FA 21"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="eng-club.png"
+                        image="eng-club.jpeg"
                         title="ENGINEERING CLUB"
                         messg="I founded and nurtured this organization in high school with a close friend, where I took up the position of Education Chair teaching C++ and basic circuitry targeted at Arduino Microcontrollers."
                         date="WN 20"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="flappy-bird.png"
+                        image="flappy-bird.jpeg"
                         title="FLAPPY BIRD"
                         messg="This was the capstone project for my first computer science course, and used Java and Greenfoot to simulate the then-popular mobile game, flappy bird, using custom sprites and adjustable gravity."
                         date="FA 17"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
-                        image="valentine.png"
+                        image="valentine.jpeg"
                         title="V-DAY OPERATION"
                         messg="This was a device I made in middle school as a Valentine's Day gift; it was a themed version of the game 'operation', triggering a buzzer if the pair of tweezers contacted the metal heart."
                         date="WN 16"
@@ -424,7 +424,7 @@
         z-index: 1;
     }
     .bg-img {
-        background-image: url(./assets/standing.png);
+        background-image: url(./assets/standing.jpeg);
         height: 100%;
         width: 25vw;
         position: absolute;
@@ -438,7 +438,7 @@
     .headshot {
         height: 100%;
         aspect-ratio: 1/1;
-        background-image: url(./assets/headshot.jpg);
+        background-image: url(./assets/headshot.jpeg);
         background-repeat: no-repeat;
         background-size: 120% 120%; 
         background-position: 50% 45%;
@@ -556,17 +556,17 @@
         background-color: rgba(20, 20, 20, 0.2);
     }
     .sage {
-        background-image: url(./assets/sages.png);
+        background-image: url(./assets/sages.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .vr {
-        background-image: url(./assets/upnorth.png);
+        background-image: url(./assets/upnorth.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .shift {
-        background-image: url(./assets/creators.png);
+        background-image: url(./assets/creators.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
