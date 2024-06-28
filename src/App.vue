@@ -485,12 +485,12 @@
         font-size: 18px;
         width: 100%;
         font-family: "Open Sans", sans-serif;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.3px;
         font-weight: 300;
     }
     p {
         font-family: "Open Sans", sans-serif;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.3px;
         font-weight: 300;
         font-size: 14px;
     }
