@@ -8,6 +8,9 @@
                     <h1 v-else><a :href=link target="_blank">{{ title }}</a></h1>
                 </div>
                 <p>{{ messg }}</p>
+                <div class="tech-cont">
+                    <span class="tech-box" v-for="tech in techs" :key="tech">{{ tech }}</span>
+                </div>
             </div>
         </div>
     </div>
@@ -20,13 +23,35 @@
             'messg',
             'title',
             'link',
+            'techs',
         ],
     }
 </script>
 
 <style scoped>
+    .tech-cont {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        width: 100%;
+        height: 22px;
+        gap: 5px;
+    }
+    .tech-box {
+        height: 100%;
+        background-color: var(--bg-dark);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 8px;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 0.2px;
+        color: #666;
+        border-radius: 5px;
+    }
     .card {
-        height: 120px;
+        height: 145px;
         position: relative;
         z-index: 0;
         display: block;
@@ -39,6 +64,7 @@
         left: 0;
         background-color: #1E1E1E;
         padding: 15px;
+        padding-right: 20px;
         z-index: 4;
         display: flex;
         flex-direction: row;

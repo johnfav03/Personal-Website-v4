@@ -55,6 +55,7 @@
                         title="QSOR SCENT CLASSIFIER"
                         messg="This project was a GCN implemented in Pytorch meant to predict the odors of molecules. The model was based on a research paper, and I learned a lot even though it didn't perform quite as well as the paper."
                         date="SM 24"
+                        :techs="['Pytorch','Python']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -62,6 +63,7 @@
                         title="STEANE DECODER"
                         messg="EECS 479 was my first venture into the Quantum Computing; the final project was an error correction circuit for the Steane encoding using Qiskit, complete with a decoder and fault-tolerant gates."
                         date="FA 23"
+                        :techs="['Qiskit','Python']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -69,6 +71,7 @@
                         title="QUOTE API"
                         messg="This project is a RESTful API, connected to a database. The purpose was to help learn caching, SwaggerUI, and OAuth. Its 'random/' endpoint is connected to the experiences page, try refreshing a few times!"
                         date="SM 23"
+                        :techs="['Express','Python','EC2','Nginx','OAuth','SwaggerUI']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -77,6 +80,7 @@
                         messg="This was the final project for EECS 498, a self-led project, which used Unreal Engine 5 to deliver an immersive Virtual Reality simulator for driving manual, featuring realistic physics and grip controls."
                         date="WN 23"
                         link="https://stickshiftsim.spar.sh/#faq"
+                        :techs="['Unreal Engine 5', 'VR']"
                     />
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -90,6 +94,7 @@
                         image="fire-car.jpeg"
                         title="FIREFIGHTING CAR"
                         messg="This was a self-led project for my Embedded Sys class, where we used 2 STM32s to remotely control a chassis with a swiveling IR sensor assembly, designed to locate fires and fire victims."
+                        :techs="['STMCube', 'C', 'I2C', 'SPI', 'UART']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -97,6 +102,7 @@
                         title="ALPHAZERO OTHELLO"
                         messg="After implementing a Monte-Carlo Tree Search to an Othello neural network for my AI class, I built a genetic algorithm on my own to optimize hyper-parameters, drastically increasing the winrate."
                         date="FA 23"
+                        :techs="['Pytorch', 'Python']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -104,6 +110,7 @@
                         title="MBTA PREDICTOR"
                         messg="This project was a machine learning model using the Python library Tensorflow to predict the travel times of the Boston T, and used GitHub Actions to make and refine its predictions daily."
                         date="SM 23"
+                        :techs="['TensorFlow', 'Python', 'Github Actions', 'SMTP', 'MBTA API']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -111,6 +118,7 @@
                         title="BRANCH SAGE"
                         messg="This started as a bash script to manage branches following a naming convention, then incorporated tools like the Jira and GitHub APIs to generate branch names and automate processes."
                         date="SM 23"
+                        :techs="['Bash', 'Jira API', 'Github API']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -118,13 +126,15 @@
                         title="ANN ARBOR GO"
                         messg="This was the second project for EECS 498, which uses Unity and Mapbox to replicate both the geolocational and AR features of Pokemon Go, but themed for Ann Arbor."
                         date="WN 23"
+                        :techs="['Unity', 'C#', 'Mapbox', 'AR']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
                         image="vue-weather.jpeg"
                         title="WEATHER APP"
-                        messg="Developed in Vue.js, this project was started to learn front-end frameworks and basic API structure. The web app features geolocational search as well as live weather and temperature from the OpenWeather API."
+                        messg="Developed in Vue, this project was started to learn front-end frameworks and basic API structure. The web app features locational search and live weather + temperature from the OpenWeather API."
                         date="FA 22"
+                        :techs="['Vue', 'Javascript', 'OpenWeather API']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -132,6 +142,7 @@
                         title="IMAGE DROPZONE"
                         messg="This project was meant to help learn backend structure and concepts, using a simple front-end with Dropzone.js to pass images to Django so they can be stored and displayed on a separate page in the web app."
                         date="WN 22"
+                        :techs="['Django', 'Python']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -139,6 +150,7 @@
                         title="WORDLE EVALUATOR"
                         messg="Utilizing the terminal, this program analyzed starting words, either from input or a file, for both positional and non-specific likelihood, giving each a score and storing the top results. "
                         date="FA 21"
+                        :techs="['C++']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -146,6 +158,7 @@
                         title="ENGINEERING CLUB"
                         messg="I founded and nurtured this organization in high school with a close friend, where I took up the position of Education Chair teaching C++ and basic circuitry targeted at Arduino Microcontrollers."
                         date="WN 20"
+                        :techs="['Arduino', 'C++']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -153,6 +166,7 @@
                         title="FLAPPY BIRD"
                         messg="This was the capstone project for my first computer science course, and used Java and Greenfoot to simulate the then-popular mobile game, flappy bird, using custom sprites and adjustable gravity."
                         date="FA 17"
+                        :techs="['Java', 'Greenfoot']"
                     />
                     <div class="spacer"></div>
                     <ProjCard 
@@ -160,6 +174,7 @@
                         title="V-DAY OPERATION"
                         messg="This was a device I made in middle school as a Valentine's Day gift; it was a themed version of the game 'operation', triggering a buzzer if the pair of tweezers contacted the metal heart."
                         date="WN 16"
+                        :techs="['Circuitry']"
                     />
                 </div>
                 <p>To take a closer look, check out my <a href="https://github.com/johnfav03" target="_blank">GitHub</a> 👈</p>
