@@ -26,7 +26,12 @@
                     <strong>johnfav@umich.edu</strong>.<br><br>
 
                     Check out some of the tabs to the right to see 
-                    some of my work or get to know me a bit better!</p>
+                    some of my work or get to know me a bit better!
+                    </p>
+                    <div class="icon-cont">
+                        <a href="https://www.linkedin.com/in/johnfav" target="_blank"><img src="/li-logo.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/johnfav03" target="_blank"><img src="/gh-logo.png" alt="GitHub"></a>
+                    </div>
             </div>
         </div>
         <div class="img-cont">
@@ -423,6 +428,16 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
+    }
+    .icon-cont {
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
+    .icon-cont img {
+        height: 100%;
+        aspect-ratio: 1/1;
+        margin-right: 15px;
     }
     .img-cont {
         z-index: 0;
