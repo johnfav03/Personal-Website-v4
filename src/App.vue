@@ -432,7 +432,7 @@
     .icon-cont {
         width: 100%;
         height: 35px;
-        margin-top: 30px;
+        margin-top: 35px;
     }
     .icon-cont img {
         height: 100%;
