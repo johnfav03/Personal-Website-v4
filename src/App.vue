@@ -195,12 +195,13 @@
                 <div class="spacer"></div>
                 <p>University of Michigan <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
-                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the computer science major on a strong note...</p>
+                    <p>Coming back to school in the fall, I enrolled in <strong>Computer Architecture</strong> to finish my minor, which extensively tested my Verilog skills. In October, 
+                     I competed with a group of friends and won 2nd place in the <strong>QuantUM Hackathon</strong>, a part of Qiskit Fall Fest. In addition, looking forward to taking <strong>Operating Systems</strong> in the winter to finish the computer science major on a strong note...</p>
                 </div>
                 <div class="spacer"></div>
                 <p>Tavus</p>
                 <div class="desc-box">
-                    <p>EnergySage had shown me life at a smaller company, but I wanted to take a step deeper. In the summer of 2024, I moved to San Francisco
+                    <p>In the summer of 2024, I moved to San Francisco
                         to work as a <strong>Software Engineer Intern</strong>
                         at a startup named <strong>Tavus</strong>. I worked mainly with Flask in a back-end focused role on their platform team, 
                         which helped me get a grasp on technologies like Docker and AWS. I appreciated the faster-paced environment as well as the exposure to cutting edge technologies, 
@@ -209,17 +210,18 @@
                 </div>
                 <div class="spacer"></div>
                 <div class="collage">
-                    <span><div class="sage"></div></span>
-                    <span><div class="vr"></div></span>
+                    <span><div class="quant"></div></span>
+                    <span><div class="showcase"></div></span>
                     <span><div class="shift"></div></span>
                 </div>
                 <div class="spacer"></div>
                 <p>University of Michigan <span class="dark-txt">[Junior]</span></p>
                 <div class="desc-box">
-                    <p>Coming back to school, I took <strong>Digital Logic Design</strong>, which confirmed my interest in the EE minor, and <strong>Intro to AI</strong>, which gave me a
-                        deeper understanding of Neural Nets and PyTorch. That same semester, I joined a club on campus called <a href="https://shiftcreator.space" target="_blank"><strong>Shift
-                        CreatorSpace</strong></a>, where I was able to reconnect with my love for building. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
-                        away with a much more thorough knowledge of C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
+                    <p>Coming back to school, I took <strong>Digital Logic Design</strong> and <strong>Intro to AI</strong>, which gave me a
+                        deeper understanding of neural networks. That same semester, I joined another club on campus called <a href="https://shiftcreator.space" target="_blank"><strong>Shift
+                        Creatorspace</strong></a>, which helped me reconnect with my love for building. In the winter, I took on <strong>Embedded Systems</strong>; though it was challenging, 
+                        I walked away with a much deeper knowledge of low-level C. I also completed a special topics class on <strong>Quantum Computing</strong>, which built on my 
+                        passion for computer logic and helped me learn Qiskit.</p>
                 </div>
                 <div class="spacer"></div>
                 <p>EnergySage</p>
@@ -586,18 +588,18 @@
         height: 100%;
         background-color: rgba(20, 20, 20, 0.2);
     }
-    .sage {
-        background-image: url(./assets/sages.jpeg);
+    .showcase {
+        background-image: url(./assets/showcase.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .vr {
-        background-image: url(./assets/upnorth.jpeg);
+    .quant {
+        background-image: url(./assets/hackathon.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .shift {
-        background-image: url(./assets/creators.jpeg);
+        background-image: url(./assets/shift.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
     }
