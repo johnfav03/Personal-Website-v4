@@ -193,16 +193,41 @@
                 <h1>EXPERIENCES</h1>
                 <span class="quote"><span class="acc">" </span>{{ quote.content }}<span class="acc"> "</span> <br><span class="auth">--{{ quote.author }}</span></span>
                 <div class="spacer"></div>
-                <p>Early Life</p>
+                <p>University of Michigan <span class="dark-txt">[Senior]</span></p>
                 <div class="desc-box">
-                    <p>Computer science was a hobby of mine long before it was a career; in high school, I capitalized on these skills,
-                        developing websites freelance, where I had to learn how to
-                        work with clients with no technical backgrounds. I also founded an <strong>Engineering Club</strong>, 
-                        which grew to 30+ members and built a table cleaning robot
-                        that won a statewide competition. My role in the club was
-                        teaching C++ and basic circuitry for Arduino, which gave me a grasp on
-                        simple embedded systems. When my co-founder graduated, I took on
-                        the role of <strong>President</strong>.
+                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the computer science major on a strong note...</p>
+                </div>
+                <div class="spacer"></div>
+                <p>Tavus</p>
+                <div class="desc-box">
+                    <p>EnergySage had shown me life at a smaller company, but I wanted to take a step deeper. In the summer of 2024, I moved to San Francisco
+                        to work as a <strong>Software Engineer Intern</strong>
+                        at a startup named <strong>Tavus</strong>. I worked mainly with Flask in a back-end focused role on their platform team, 
+                        which helped me get a grasp on technologies like Docker and AWS. I appreciated the faster-paced environment as well as the exposure to cutting edge technologies, 
+                        and working here taught me a lot about taking full ownership over my projects.
+                    </p>
+                </div>
+                <div class="spacer"></div>
+                <div class="collage">
+                    <span><div class="sage"></div></span>
+                    <span><div class="vr"></div></span>
+                    <span><div class="shift"></div></span>
+                </div>
+                <div class="spacer"></div>
+                <p>University of Michigan <span class="dark-txt">[Junior]</span></p>
+                <div class="desc-box">
+                    <p>Coming back to school, I took <strong>Digital Logic Design</strong>, which confirmed my interest in the EE minor, and <strong>Intro to AI</strong>, which gave me a
+                        deeper understanding of Neural Nets and PyTorch. That same semester, I joined a club on campus called <a href="https://shiftcreator.space" target="_blank"><strong>Shift
+                        CreatorSpace</strong></a>, where I was able to reconnect with my love for building. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
+                        away with a much more thorough knowledge of C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
+                </div>
+                <div class="spacer"></div>
+                <p>EnergySage</p>
+                <div class="desc-box">
+                    <p>In the summer of 2023, I moved to Boston to work as a <strong>Software Engineer Intern</strong> at a small company called <strong>EnergySage</strong>.
+                        I worked in a full-stack role on their rooftop consumer team using technologies like Vue and Django - this was my first encounter with
+                        back-end work, which I quickly developed an enthusiasm for. I greatly enjoyed this position, as it not only provided 
+                        me with valuable learning opportunities and mentorship more experienced engineers, but also the chance to contribute to a project I was passionate about.
                     </p>
                 </div>
                 <div class="spacer"></div>
@@ -217,42 +242,18 @@
                         which I loved and which inspired me to pursue an EE minor.
                     </p>
                 </div>
-                <div class="collage">
-                    <span><div class="sage"></div></span>
-                    <span><div class="vr"></div></span>
-                    <span><div class="shift"></div></span>
-                </div>
                 <div class="spacer"></div>
-                <p>EnergySage</p>
+                <p>Early Life</p>
                 <div class="desc-box">
-                    <p>In the summer of 2023, I moved to Boston to work as a <strong>Software Engineer Intern</strong> at a small company called <strong>EnergySage</strong>.
-                        I worked in a full-stack role on their rooftop consumer team using technologies like Vue and Django - this was my first encounter with
-                        back-end work, which I quickly developed an enthusiasm for. I greatly enjoyed this position, as it not only provided 
-                        me with valuable learning opportunities and mentorship more experienced engineers, but also the chance to contribute to a project I was passionate about.
+                    <p>Computer science was a hobby of mine long before it was a career; in high school, I capitalized on these skills,
+                        developing websites freelance, where I had to learn how to
+                        work with clients with no technical backgrounds. I also founded an <strong>Engineering Club</strong>, 
+                        which grew to 30+ members and built a table cleaning robot
+                        that won a statewide competition. My role in the club was
+                        teaching C++ and basic circuitry for Arduino, which gave me a grasp on
+                        simple embedded systems. When my co-founder graduated, I took on
+                        the role of <strong>President</strong>.
                     </p>
-                </div>
-                <div class="spacer"></div>
-                <p>University of Michigan <span class="dark-txt">[Junior]</span></p>
-                <div class="desc-box">
-                    <p>Coming back to school, I took <strong>Digital Logic Design</strong>, which confirmed my interest in the EE minor, and <strong>Intro to AI</strong>, which gave me a
-                        deeper understanding of Neural Nets and PyTorch. That same semester, I joined a club on campus called <a href="https://shiftcreator.space" target="_blank"><strong>Shift
-                        CreatorSpace</strong></a>, where I was able to reconnect with my love for building. In the winter, I took on <strong>Embedded Systems</strong>; though I walked
-                        away with a much more thorough knowledge of C and writing code for hardware, it was probably the hardest class I've taken to date.</p>
-                </div>
-                <div class="spacer"></div>
-                <p>Tavus</p>
-                <div class="desc-box">
-                    <p>EnergySage had shown me life at a smaller company, but I wanted to take a step deeper. In the summer of 2024, I moved to San Francisco
-                        to work as a <strong>Software Engineer Intern</strong>
-                        at a startup named <strong>Tavus</strong>. I worked mainly with Flask in a back-end focused role on their platform team, 
-                        which helped me get a grasp on technologies like Docker and AWS. I appreciated the faster-paced environment as well as the exposure to cutting edge technologies, 
-                        and working here taught me a lot about taking full ownership over my projects.
-                    </p>
-                    <!-- EnergySage had shown me what it was like to work at a smaller company, but I wanted to go even further and try working at a startup.  -->
-                </div>
-                <p>University of Michigan <span class="dark-txt">[Senior]</span></p>
-                <div class="desc-box">
-                    <p>Yet to be explored! Looking forward to taking <strong>Computer Architecture</strong> in the fall, and hoping to take <strong>Operating Systems</strong> in the winter to finish the computer science major on a strong note...</p>
                 </div>
             </div>
         </div>
